@@ -1,4 +1,4 @@
-# Web-Search-Engine #
+# Web-Search-Engine 
 
 
 
@@ -11,15 +11,19 @@ The information may be a mix  links of web pages, images , videos, articles , r
 
 # Block Diagram of Working 
 
-(Picture1.png)
+![Block ](Picture1.png)
 
+# Tools and Technologies
+ * Eclipse IDE  for Java development.
+ * JSoup Library.
+ *  Snowball API for Porter Stemming Algorithm
+ 
 # Functionalities Implemented 
-
-*Web Crawler
-*Indexing
-*Porter Stemming Algorithm
-*Removing Stop words
-*Ranking web pages
+* Web Crawler
+* Indexing
+* Porter Stemming Algorithm
+* Removing Stop words
+* Ranking web pages
 
 
 
