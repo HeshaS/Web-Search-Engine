@@ -55,7 +55,7 @@ It will consume extra space in memory which will slow down the search process.
 #### **How it is implemented?** 
  We have created a list of stop words and removed them before creating  inverted index of all the web pages.
 
-#Ranking of Web Pages
+# Ranking of Web Pages
 To get more relevant results, ranker is used based the user search query.Ranker algorithm is Collection.sort() as it is easy to use with Hash Map.
 #### **How it is implemented?**  
 The result is sorted based on the frequencies of the words.
