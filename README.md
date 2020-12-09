@@ -85,6 +85,6 @@ These pages are then converted from html to text format using JSOUP and saved  
 # I would like to thank you everyone for their valuable time .Also , I would like to thank all the references available online which helped us to develop this application.
 
 # Contributors 
-**Hesha Sheth**
-**Nizar Kadri**
-**Adaobi Anuichi**
+* Hesha Sheth
+* Nizar Kadri
+* Adaobi Anuichi
