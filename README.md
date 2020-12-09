@@ -1,4 +1,4 @@
-# Web-Search-Engine
+# Web-Search-Engine #
 
 
 
@@ -9,18 +9,27 @@ The search results are represented as lines of results  often referred as Searc
 The information may be a mix  links of web pages, images , videos, articles , research papers .
 
 
-# Block Diagram of Working :
+# Block Diagram of Working 
 
-![](Picture1.png)
+(Picture1.png)
+
+# Functionalities Implemented 
+
+*Web Crawler
+*Indexing
+*Porter Stemming Algorithm
+*Removing Stop words
+*Ranking web pages
 
 
 
-# Web Crawler :
+
+# Web Crawler 
 A web crawler is  a program which navigates the web and finds new or updated pages .It downloads the pages from the website and then starts indexing the content found on the pages.
 #### **How it is implemented?** 
-  We have crawled web pages from Yahoo news locally and downloaded them.
+  We have crawled 100 web pages from Yahoo news locally and downloaded them.
 
-# Indexing : 
+# Indexing 
 In indexing , we have used inverted indexing.
 Inverted indexing is an index data structure storing a mapping from content such as words or numbers , to its location in one or more documents .
 It is like a hash map structure .
@@ -28,7 +37,7 @@ It directs you from a word to a document or a webpage.
 #### **How it is implemented?** 
 We have created an inverted index for all the words from all the text files of web pages using a hash map  where key is the  word and value is list of all the files  where the word is found.
 
-# Porter Stemming Algorithm :
+# Porter Stemming Algorithm 
 This algorithm is a process used for removing the commoner morphological and inflexional endings from words in English.
 Example: EED -> EE means “if the word has at least one vowel and consonant plus EED ending, change the ending to EE” as ‘agreed’ becomes ‘agree’. 
 Another example is word “connected” will give results “connect”.
@@ -46,6 +55,17 @@ It will consume extra space in memory which will slow down the search process.
 To get more relevant results, ranker is used based the user search query.Ranker algorithm is Collection.sort() as it is easy to use with Hash Map.
 #### **How it is implemented?**  
 The result is sorted based on the frequencies of the words.
+
+# Web Search Process
+First all the web pages are downloaded and stored locally from yahoo news – Web Crawling .
+All the webpages are converted from Html to Text format using Jsoup Library.
+Stop words and Porter Stemming algorithm is used to remove unnecessary words. 
+An Inverted Index for all the words from all the text files of web pages using a hash map variable.
+When the user enters a search query, program first removes the stop words and search for the query. Then it provides the links which matches the searched query.
+
+In simple words , The process starts with web crawler which downloads around 100 pages from yahoo news.
+These pages are then converted from html to text format using JSOUP and saved  locally using urls as their respective filename. Once all the pages are saved, all the words from all the pages will be mapped with their respective files using inverted index. Now, when user search for something, we will first remove stop words from the searched query and stem out the words where necessary. Then the resultant query will be searched in our index and results will be ranked and displayed to the user. We have programmed our search engine to show 10 results at a time and user can press 1 to get more results. So, this is how our web search engine works.
+
 
 # References
 #### [1]” Search engine - Wikipedia.” https://en.wikipedia.org/wiki/Search_engine (accessed: Nov. 23, 2020).
