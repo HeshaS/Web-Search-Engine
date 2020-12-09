@@ -1,7 +1,7 @@
 # Web-Search-Engine
 
 
-# What is Web Search Engine ?
+
 
 In simple words ,it is a system where user provides the query to be search and the system displays results which is found on the web.
 In technical terms it is a software service that allows Internet users to perform search operation for content via World wide web. The information to be search is known as web search query.
@@ -11,7 +11,7 @@ The information may be a mix  links of web pages, images , videos, articles , r
 
 # Block Diagram of Working :
 
-![Image of Block Diagram ](https://drive.google.com/file/d/123CxWqGPGypgIouzz0NALymjlv4R-Zfi/view?usp=sharing )
+![](Picture1.png)
 
 
 
