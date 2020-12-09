@@ -83,3 +83,8 @@ These pages are then converted from html to text format using JSOUP and saved  
 #### [9] “Removing Stopwords from a String in Java | Baeldung.” https://www.baeldung.com/java-string-remove-stopwords (accessed: Dec. 04, 2020).
 
 # I would like to thank you everyone for their valuable time .Also , I would like to thank all the references available online which helped us to develop this application.
+
+# Contributors 
+Hesha Sheth
+Nizar Kadri 
+Adaobi 
